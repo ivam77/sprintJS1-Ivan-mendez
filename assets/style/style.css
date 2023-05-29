@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* img logo */
+.logo {
+    width: 10rem;
+}
+
+/*----------------------------------------------header */
+#header {
+    min-height: 10vh;
+}
+
+/*--------------------------------------------------main */
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: .2rem;
+}
+
+/* ------------------------------------------------------card----------------- */
+.card{
+    width: 12rem;
+    box-shadow: 3px 2px 5px 0px rgba(255,198,16,0.91);
+}
+
+.card-text {
+    font-size: 0.8rem;
+}
+
+
+/*  */
+.conteiner{
+    background-color: rgba(235, 184, 18, 0.392);
+    box-shadow: 3px 2px 5px 0px rgba(255,198,16,0.91);
+    width: 70%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.Festival{
+    width: 60%;
+}
+
+/* -----------------------------------------------------text-card------------- */
+#text-card {
+    margin-bottom: 2.2rem;
+}
+
+#text-card2 {
+    margin-bottom: 3.3rem;
+}
+
+#text-card3 {
+    margin-bottom: 1.8rem;
+}
+
+#text-card5 {
+    margin-bottom: 2.2rem;
+}
+/* ----------------------- */
+#text-card6 {
+    margin-bottom: 2.2rem;
+}
+
+#text-card7{
+    margin-bottom: 2.2rem;
+
+}
+/* ------------------------------- */
+#text5-card5{
+    margin-bottom: 3.5rem;
+}
+#text6-card6{
+    margin-bottom: 3.5rem;
+}
+/*------------------------------------------------------ img---------------------------------------*/
+.img1-header{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    object-position: 10% 20%;
+}
+
+.card-img-top {
+    height: 6rem;
+}
+
+/*-------------------------------------------------------------------nav--------------------------------------  */
+.nav{
+    background-color: rgba(235, 185, 18, 0.813);
+}
+
+/* table */
+
+tr td{
+    border: 1px solid black;
+}
+
+/* contact */
+
+.form-contact{
+    background-color: rgb(242, 208, 164);
+    border: 1px solid black;
+}
+
+.menssage{
+    height: 5rem;
+}
+/*---------------------------------------------------footer--------------------------------------------------- */
+#footer {
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 183, 18);
+    color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.logo-redes {
+    height: 2rem;
+    filter: invert(100%) sepia(150%) saturate(5%) hue-rotate(196deg) brightness(107%) contrast(150%);
+}
+
+@media screen and (max-width: 665px) {
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    html{
+        font-size: 10px;
+    }
+    .card-container{
+        min-height: 55vh;
+        display: flex;
+        align-content: space-between;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .conteiner{
+        flex-direction: column;
+    }
+
+    .Festival{
+        width: 100%;
+    }
+}
